@@ -1,9 +1,9 @@
 package com.gildedrose;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static com.gildedrose.GildedRoseItem.gildedRoseItem;
-import static junit.framework.TestCase.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ConjuredItemTest {
     @Test
